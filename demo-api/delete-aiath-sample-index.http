@@ -1,0 +1,3 @@
+DELETE https://cog-srch-frlai-demo-eus-01.search.windows.net/indexes/aiath-sample-index?api-version=2023-11-01
+content-type: application/json
+api-key: wCOk7nDtw14N9pXcx80U5CHBpVNZjM9KnCHpqSJfKfAzSeBy7mkr

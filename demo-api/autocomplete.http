@@ -1,10 +1,10 @@
-POST https://frlai-cog-search-demo-svc.search.windows.net/indexes/good-books/docs/autocomplete?api-version=2020-06-30
+POST https://cog-srch-frlai-demo-eus-01.search.windows.net/indexes/aiath-sample-index/docs/autocomplete?api-version=2020-06-30
 content-type: application/json
-api-key: sr3A6ZbzRuuUHWdeDWe1JspdXYEEq9ykdobly7qoR9AzSeCH2V30
+api-key: CQy9IWaYfKQe1mvMrG2YfHsBBE6IIcmJfTw9ywjsXgAzSeABktUj
     
     {
-        "search": "c",
+        "search": "stu",
         "autocompleteMode": "oneTerm",
         "top": 5,
-        "suggesterName": "sg"   
+        "suggesterName": "sg" 
     }

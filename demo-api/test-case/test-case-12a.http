@@ -1,0 +1,14 @@
+POST https://cog-srch-frlai-demo-eus-01.search.windows.net/indexes/aiath-sample-index/docs/search?api-version=2021-04-30-Preview
+content-type: application/json
+api-key: CQy9IWaYfKQe1mvMrG2YfHsBBE6IIcmJfTw9ywjsXgAzSeABktUj
+
+    {
+        "search": "อาหาร",
+        "queryType": "semantic",
+        "speller": "lexicon",
+        "queryLanguage": "en-us",
+        "semanticConfiguration": "default",
+        "searchFields": "post_body_en",
+        "select": "id,post_body_en",
+        "count": true
+    }

@@ -1,0 +1,16 @@
+POST https://videokmlkg7ev.search.windows.net/indexes/video-knowledge-mining-index/docs/index?api-version=2020-06-30&search=งอกเงย&$select=post_id,post_title,post_body_th,post_body_en&searchFields=post_body_th,post_body_en
+content-type: application/json
+api-key: OvxtkJVyKl3FqIIjnx7NQPWxfujshmZ9jc81iwftFwAzSeCYa4DI
+
+{
+  "value": [
+    {
+      "@search.action": "delete",  
+      "metadata_storage_path": "aHR0cHM6Ly92aWRlb2ttbGtnN2V2LmNvcmUud2luZG93cy5uZXQvdmlkZW8ta25vd2xlZGdlLW1pbmluZy8wMDgwMmQxN2MwLmpzb24=" 
+    },
+    {
+      "@search.action": "delete",  
+      "metadata_storage_path": "aHR0cHM6Ly92aWRlb2ttbGtnN2V2LmNvcmUud2luZG93cy5uZXQvdmlkZW8ta25vd2xlZGdlLW1pbmluZy8wYzg3ZGUzYTNmLmpzb24=" 
+    }
+  ]
+}

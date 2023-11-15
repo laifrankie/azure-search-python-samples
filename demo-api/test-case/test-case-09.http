@@ -1,0 +1,9 @@
+@api-version=2020-06-30
+@search-words=lifestyle
+@select-fields=id,article_labels_en,article_created
+@search-fields=article_labels_en
+@options=&orderby=article_created
+
+GET https://cog-srch-frlai-demo-eus-01.search.windows.net/indexes/aiath-sample-index/docs?api-version={{api-version}}&search={{search-words}}&$select={{select-fields}}&searchFields={{search-fields}}{{options}}
+content-type: application/json
+api-key: CQy9IWaYfKQe1mvMrG2YfHsBBE6IIcmJfTw9ywjsXgAzSeABktUj

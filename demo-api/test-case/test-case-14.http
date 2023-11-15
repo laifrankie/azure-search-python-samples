@@ -1,0 +1,9 @@
+@search-words=monay
+@select-fields=id,post_body_th,post_body_en
+@search-fields=post_body_en
+@options=
+
+GET https://cog-srch-frlai-demo-eus-01.search.windows.net/indexes/aiath-sample-index/docs?api-version=2023-07-01-Preview&search={{search-words}}&$select={{select-fields}}&queryLanguage=en-US&speller=lexicon
+content-type: application/json
+api-key: CQy9IWaYfKQe1mvMrG2YfHsBBE6IIcmJfTw9ywjsXgAzSeABktUj
+
