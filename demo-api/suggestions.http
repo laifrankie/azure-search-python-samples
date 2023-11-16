@@ -1,9 +1,0 @@
-POST https://cog-srch-frlai-demo-eus-01.search.windows.net/indexes/aiath-sample-index/docs/suggest?api-version=2020-06-30
-content-type: application/json
-api-key: CQy9IWaYfKQe1mvMrG2YfHsBBE6IIcmJfTw9ywjsXgAzSeABktUj
-    
-    {
-        "search": "s",
-        "top": 5,
-        "suggesterName": "sg"  
-    }
